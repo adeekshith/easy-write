@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script src="libs/jquery-highlighttextarea/jquery.highlighttextarea.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" href="libs/jquery-highlighttextarea/jquery.highlighttextarea.min.css">
+</head>
+<body>
+<textarea id="easy-text-textarea" cols="50" rows="5">
+</textarea>
+
+<script>
+  document.getElementById("easy-text-textarea").oninput=function(){
+  	$('textarea').highlightTextarea({
+      words: ['browser', 'frivolous'],
+      color: "#FF0000"
+    });
+  }
+</script>
+</body>
+</html>
