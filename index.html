@@ -12,34 +12,9 @@
 <textarea id="easy-text-textarea" cols="50" rows="5">
 </textarea>
 
-<script>
-  document.getElementById("easy-text-textarea").oninput=function(){
-  	$('textarea').highlightTextarea({
-		words:[
-			{
-				words: ['browser', 'online'],
-				color: "#FDD01C"},
-			{
-				words: ['ergonomics','malignant'],
-				color: "#fab22b"
-			},
-			{
-				words: ['quintessence'],
-				color: "#f8943a"
-			},
-			{
-				words: ['quantum'],
-				color: "#f67749"
-			},
-			{
-				words: ['javascript'],
-				color: "#f35958"
-			}
-		]
-	}
-	);
-  }
-</script>
+<!-- Main App Script -->
+<script src="js/main.js"></script>
+
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
