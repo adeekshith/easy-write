@@ -32,4 +32,4 @@ function highlightTextAreaWithGivenWords(set1, set2, set3, set4, set5) {
     );
 }
 
-document.getElementById("easy-text-textarea").oninput=highlightTextAreaWithGivenWords([],[],[],[],[]);
+//document.getElementById("easy-text-textarea").oninput=highlightTextAreaWithGivenWords([],[],[],[],[]);
