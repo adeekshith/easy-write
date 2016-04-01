@@ -60,7 +60,10 @@ textarea {
 mark {
     border-radius: 3px;
     color: transparent;
-    background-color: #b1d5e5;
+}
+
+.highlight-one-to-k{
+    background-color: #fdd01c;
 }
 
 button {

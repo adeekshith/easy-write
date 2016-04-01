@@ -20,7 +20,7 @@ var isIOS = !isWinPhone && !!ua.match(/ipad|iphone|ipod/);
 function applyHighlights(text) {
     text = text
         .replace(/\n$/g, '\n\n')
-        .replace(oneKPlus, '<mark>$&</mark>');
+        .replace(oneKPlus, '<mark class="highlight-one-to-k">$&</mark>');
 
     if (isIE) {
         // IE wraps whitespace differently in a div vs textarea, this fixes it
