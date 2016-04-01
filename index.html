@@ -15,9 +15,29 @@
 <script>
   document.getElementById("easy-text-textarea").oninput=function(){
   	$('textarea').highlightTextarea({
-      words: ['browser', 'frivolous'],
-      color: "#FF0000"
-    });
+		words:[
+			{
+				words: ['browser', 'online'],
+				color: "#FDD01C"},
+			{
+				words: ['ergonomics','malignant'],
+				color: "#fab22b"
+			},
+			{
+				words: ['quintessence'],
+				color: "#f8943a"
+			},
+			{
+				words: ['quantum'],
+				color: "#f67749"
+			},
+			{
+				words: ['javascript'],
+				color: "#f35958"
+			}
+		]
+	}
+	);
   }
 </script>
 <!-- Bootstrap CSS -->
