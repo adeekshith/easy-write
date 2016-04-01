@@ -3,7 +3,7 @@
  */
 "use strict";
 
-let unknownWords = /[A-Z].*?\b/g;
+let oneKPlus = /\b(?!(this|and|or|a|all|will|be|behind)\b)\w+/gi;
 
 var $container = $('.container');
 var $backdrop = $('.backdrop');
@@ -20,7 +20,7 @@ var isIOS = !isWinPhone && !!ua.match(/ipad|iphone|ipod/);
 function applyHighlights(text) {
     text = text
         .replace(/\n$/g, '\n\n')
-        .replace(unknownWords, '<mark>$&</mark>');
+        .replace(oneKPlus, '<mark>$&</mark>');
 
     if (isIE) {
         // IE wraps whitespace differently in a div vs textarea, this fixes it
