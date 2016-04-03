@@ -98,17 +98,35 @@ footer {
     margin-left: auto;
     margin-bottom: 0;
     text-align: center;
+    color: #8e8e93;
 }
 
 .btn {
-    color: white;
     border-radius: 4px;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    /*text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);*/
     text-decoration: none;
     padding: 2px 2px 2px 2px;
     font: 12px 'Opens Sans', sans-serif;
 }
 
 .btn-twitter {
+    color: #8e8e93;
+    background: transparent; /* Twitter brand color */
+    border: solid #8e8e93 1px;
+}
+.btn-twitter:hover {
+    color: white;
     background: #1b95e0; /* Twitter brand color */
+    border: solid transparent 1px;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: #8e8e93;
+    border: solid #8e8e93 1px;
+}
+.btn-outline:hover {
+    background: #222222;
+    color: #FFFFFF;
+    border: solid transparent 1px;
 }
