@@ -91,3 +91,23 @@ textarea:focus, button:focus {
     outline: none;
     box-shadow: 0 0 0 2px #c6aada;
 }
+
+footer {
+    margin-top: 2em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.btn {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    padding: 2px 2px 2px 2px;
+}
+
+.btn-twitter {
+    background: #1b95e0; /* Twitter brand color */
+}
