@@ -11,7 +11,7 @@ body {
 
 .container, .backdrop, textarea {
     width: 600px;
-    height: 600px;
+    height: 550px;
 }
 
 .highlights, textarea {
