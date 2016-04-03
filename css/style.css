@@ -106,6 +106,7 @@ footer {
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
     text-decoration: none;
     padding: 2px 2px 2px 2px;
+    font: 12px 'Opens Sans', sans-serif;
 }
 
 .btn-twitter {
