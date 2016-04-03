@@ -10,7 +10,7 @@ body {
 }
 
 .container, .backdrop, textarea {
-    width: 600px;
+    width: calc(80%);
     height: 550px;
 }
 
@@ -30,6 +30,7 @@ body {
     display: block;
     margin: 0 auto;
     transform: translateZ(0);
+    margin-right: 0;
     -webkit-text-size-adjust: none;
 }
 
