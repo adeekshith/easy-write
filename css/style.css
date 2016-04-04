@@ -34,6 +34,13 @@ body {
     -webkit-text-size-adjust: none;
 }
 
+.section {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .backdrop {
     position: absolute;
     z-index: 1;
@@ -127,7 +134,7 @@ footer {
     border: solid #8e8e93 1px;
 }
 .btn-outline:hover {
-    background: #222222;
+    background: #168CCC;
     color: #FFFFFF;
     border: solid transparent 1px;
 }
