@@ -5,7 +5,7 @@
 }
 
 body {
-    margin: 30px;
+    margin: 10px 30px 10px 30px;
     background-color: #f0f0f0;
 }
 
@@ -36,7 +36,7 @@ body {
 
 .section {
     margin-top: 1em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     margin-right: auto;
     margin-left: auto;
 }
@@ -101,7 +101,7 @@ textarea:focus, button:focus {
 }
 
 footer {
-    margin-top: 2em;
+    margin-top: 1em;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 0;
