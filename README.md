@@ -1,5 +1,5 @@
 # [EasyWrite](http://easywrite.parishod.com/)
-Write using only the most common English words.
+Write clearly using only 1,000 commonly used words
 
 [![EasyWrite in action GIF](http://easywrite.parishod.com/assets/easy-text-explain.gif)](http://easywrite.parishod.com)
 
